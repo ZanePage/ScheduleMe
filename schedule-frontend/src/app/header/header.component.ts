@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  disp: boolean = false;
+
+  dispDiv():void {
+    this.disp = !(this.disp);
+    console.log(this.disp);
+  }
+
 }

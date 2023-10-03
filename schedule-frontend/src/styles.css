@@ -1,3 +1,5 @@
+@import 'material-icons/iconfont/material-icons.css';
+
 @font-face {
     font-family: "Mulish";
     src: url('assets/Mulish-Regular.ttf')
@@ -8,8 +10,8 @@
 }
 
 html {
-    font-family: Mulish;
-    font-size: 16px;
+  font-family: Mulish;
+  font-size: 16px;
 }
 
 body {
@@ -20,3 +22,6 @@ body {
 a {
   text-decoration: none;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

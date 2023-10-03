@@ -1,21 +1,33 @@
 <header>
   <div class="container">
     <a routerLink="/" class="logo">Schedule Me</a>
-    <nav>
+
+    <nav class="nav-full">
       <ul>
         <li>
           <a routerLink="/login" class="login">Login</a>
         </li>
         <li class="menu-container">
-          <a routerLink="/dashboard">John Doe</a>
+          <a routerLink="/dashboard" id="name">John Doe</a>
           <div class="menu">
             <a routerLink="/Profile">Profile</a>
             <a routerLink="/Appointments">Appointments</a>
             <a>Logout</a>
           </div>
         </li>
-
       </ul>
     </nav>
+
+    <nav class="nav-mobile">
+      <div class="menu-container-mobile">
+        <span class="material-icons" id="split" (click)="dispDiv()">menu</span>
+      </div>
+    </nav>
+  </div>
+  <div *ngIf="disp" class="menu-mobile">
+    <a routerLink="/login" class="login-mobile">Login</a>
+    <a routerLink="/Profile">Profile</a>
+    <a routerLink="/Appointments">Appointments</a>
+    <a>Logout</a>
   </div>
 </header>
