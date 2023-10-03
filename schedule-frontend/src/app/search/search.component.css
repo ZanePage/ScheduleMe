@@ -2,15 +2,20 @@
   .container {
     height: 150px;
     width: 100%;
+    padding: 2rem;
     display: flex;
-    text-align: center;
+    align-items: center;
+    justify-items: center;
   }
 
-  .logo {
-    align-self: center;
-    width: 100%;
-    font-size: 50px;
-    color: #FF9F1C;
+  .search-text {
+      height: 40px;
+      width: 60%;
+  }
+
+  button {
+      height: 40px;
+      width: 40%;
   }
 }
 
@@ -19,16 +24,8 @@
     height: 300px;
     width: 100%;
     display: flex;
-    text-align: center;
-  }
 
-  .logo {
-    align-self: center;
-    width: 100%;
-    font-size: 100px;
-    color: #FF9F1C;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -37,13 +34,6 @@
     width: 100%;
     display: flex;
     text-align: center;
-  }
-
-  .logo {
-    align-self: center;
-    width: 100%;
-    font-size: 120px;
-    color: #FF9F1C;
   }
 }
 
@@ -54,12 +44,6 @@
     display: flex;
     text-align: center;
   }
-  .logo {
-    align-self: center;
-    width: 100%;
-    font-size: 160px;
-    color: #FF9F1C;
-  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -68,12 +52,5 @@
     width: 100%;
     display: flex;
     text-align: center;
-  }
-
-  .logo {
-    align-self: center;
-    width: 100%;
-    font-size: 200px;
-    color: #FF9F1C;
   }
 }

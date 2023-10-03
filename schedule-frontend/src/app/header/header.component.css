@@ -51,6 +51,7 @@
     text-align: right;
     gap: 1rem;
     padding-bottom: 1rem;
+    font-size: 20px;
   }
 
   .menu-container-mobile:hover > .menu-mobile {
