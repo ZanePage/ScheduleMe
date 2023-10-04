@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { SearchComponent } from './search/search.component';
+import { IconmenuComponent } from './iconmenu/iconmenu.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SearchComponent } from './search/search.component';
     AppComponent,
     HeaderComponent,
     HomepageComponent,
-    SearchComponent
+    SearchComponent,
+    IconmenuComponent
   ],
   imports: [
     BrowserModule,
