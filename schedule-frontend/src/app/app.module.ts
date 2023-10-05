@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { SearchComponent } from './search/search.component';
 import { IconmenuComponent } from './iconmenu/iconmenu.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { IconmenuComponent } from './iconmenu/iconmenu.component';
     HeaderComponent,
     HomepageComponent,
     SearchComponent,
-    IconmenuComponent
+    IconmenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

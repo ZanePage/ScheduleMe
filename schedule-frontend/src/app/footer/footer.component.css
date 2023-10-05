@@ -1,0 +1,145 @@
+@media only screen and (max-width: 600px) {
+  footer {
+    background-color: #FA1F44;
+    color: white;
+    padding: 0 2rem 0 2rem;
+  }
+
+    footer .logo {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      align-self: center;
+    }
+
+    footer .large-sig {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      align-self: center;
+    }
+
+  .container {
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  footer {
+    background-color: #FA1F44;
+    color: white;
+    padding: 0 5px 0 5px;
+  }
+
+    footer .logo {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      align-self: center;
+    }
+
+    footer .large-sig {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      align-self: center;
+    }
+
+  .container {
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+    background-color: #FA1F44;
+    color: white;
+    padding: 0 2rem 0 2rem;
+  }
+
+    footer .logo {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      align-self: center;
+    }
+
+    footer .large-sig {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      align-self: center;
+    }
+
+  .container {
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  footer {
+    background-color: #FA1F44;
+    color: white;
+    padding: 0 2rem 0 2rem;
+  }
+
+    footer .logo {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      align-self: center;
+    }
+
+    footer .large-sig {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      align-self: center;
+    }
+
+  .container {
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  footer {
+    background-color: #FA1F44;
+    color: white;
+    padding: 0 2rem 0 2rem;
+  }
+
+    footer .logo {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      align-self: center;
+    }
+
+    footer .large-sig {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        align-self: center;
+    }
+
+  .container {
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+}
