@@ -10,6 +10,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { SearchComponent } from './search/search.component';
 import { IconmenuComponent } from './iconmenu/iconmenu.component';
 import { FooterComponent } from './footer/footer.component';
+import { SearchresultsComponent } from './searchresults/searchresults.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     HomepageComponent,
     SearchComponent,
     IconmenuComponent,
-    FooterComponent
+    FooterComponent,
+    SearchresultsComponent
   ],
   imports: [
     BrowserModule,
