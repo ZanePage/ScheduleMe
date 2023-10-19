@@ -1,1 +1,16 @@
-<p>searchresults works!</p>
+<app-search></app-search>
+<div>
+  <h3>Showing results for: All</h3>
+  <div class="container">
+    <div class="box" *ngFor="let biz of bizez">
+      <h2>{{biz.name}}</h2><hr />
+      <p class="fav">
+        <span class="material-icons" id="heart">favorite_border</span>
+        &nbsp;{{biz.faves}}
+      </p>
+      <p>Address: {{biz.address}}</p>
+      <p>Services: {{biz.services }}</p>
+      <button class="sced-button">Schedule Now</button>
+    </div>
+  </div>
+</div>

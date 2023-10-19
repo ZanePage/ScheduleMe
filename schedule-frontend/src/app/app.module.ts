@@ -11,6 +11,7 @@ import { SearchComponent } from './search/search.component';
 import { IconmenuComponent } from './iconmenu/iconmenu.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchresultsComponent } from './searchresults/searchresults.component';
+import { SearchcatComponent } from './searchcat/searchcat.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SearchresultsComponent } from './searchresults/searchresults.component'
     SearchComponent,
     IconmenuComponent,
     FooterComponent,
-    SearchresultsComponent
+    SearchresultsComponent,
+    SearchcatComponent
   ],
   imports: [
     BrowserModule,

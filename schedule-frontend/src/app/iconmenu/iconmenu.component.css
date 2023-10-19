@@ -213,6 +213,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 2rem;
+    justify-items: center;
   }
 
   .box {
@@ -256,6 +257,6 @@
     }
 
     .section hr {
-      border-color: #FA1F44;
+      border-color: #FA1F44 ;
     }
 }

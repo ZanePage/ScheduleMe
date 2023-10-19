@@ -12,7 +12,7 @@
   }
 
     a:hover {
-      font-weight: bold;
+      text-shadow: black 2px 2px;
       cursor: pointer;
     }
 
@@ -89,7 +89,7 @@
   }
 
     a:hover {
-      font-weight: bold;
+      text-shadow: black 2px 2px;
       cursor: pointer;
     }
 
@@ -160,7 +160,7 @@
   }
 
     a:hover {
-      font-weight: bold;
+      text-shadow: black 2px 2px;
       cursor: pointer;
     }
 
@@ -228,7 +228,7 @@
   }
 
     a:hover {
-      font-weight: bold;
+      text-shadow: black 2px 2px;
       cursor: pointer;
     }
 
@@ -295,7 +295,7 @@
   }
 
     a:hover {
-      font-weight: bold;
+      text-shadow: black 2px 2px;
       cursor: pointer;
     }
 
