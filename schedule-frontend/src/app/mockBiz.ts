@@ -15,7 +15,7 @@ export const Buisnesses: Biz[] = [
   {
     id: 2,
     name: "Your Local Meditation Center",
-    cat: "H&W",
+    cat: "h&w",
     services: ['Yoga', ' Meditation Class', ' Healthy Cooking Class'],
     faves: 8,
     address: "222 Main St",
